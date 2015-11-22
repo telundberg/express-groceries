@@ -1,0 +1,15 @@
+doctype html
+html(lang="en")
+  head
+    title Grocery List
+  body
+    h1 My Grocery List:
+    section.list        
+        ul
+          each val in table
+            li= val.grocery_name
+      section.post
+        form(method="POST", action="/groceries")
+          label(for="grocery_name") New Grocery:
+          input(id="grocery_name", type="text", name="grocery_name" required)
+          input(type="submit", value="Add to list" onsubmit="required()")

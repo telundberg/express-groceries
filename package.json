@@ -1,0 +1,19 @@
+{
+  "name": "express-groceries",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.14.1",
+    "express": "^4.13.3",
+    "jade": "^1.11.0",
+    "node-inspector": "^0.12.3",
+    "pg": "^4.4.3",
+    "pryjs": "^0.1.3"
+  }
+}
